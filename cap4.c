@@ -1,6 +1,4 @@
-//Grupo C05 - Alunos: Dennis Almeida, Lucas do Nascimento, Tatiana GonÁalves
-
-#define ex3
+#define ex1
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -8,7 +6,7 @@
 
 #ifdef ex1
 /*1 - Escreva um programa que receba um vetor de tamanho 10 e o decomponha em dois
-    outros vetores. Um contera' as componentes de ordem Ìmpar e o outro contera'
+    outros vetores. Um contera' as componentes de ordem √≠mpar e o outro contera'
     as componentes de ordem par.
     Por exemplo, se o vetor dado for v = {3, 5, 6, 8, 1, 4, 2, 3, 7}, o programa
     deve gerar os vetores u = {3, 6, 1, 2, 7} e w = {5, 8, 4, 3}.
@@ -75,7 +73,7 @@ printf("\nVetor par:\n");
 2 - Receba via teclado valores do tipo int para uma matriz 5 x 5. Receba via
     teclado um valor x. O programa dever fazer a busca desse valor x na matriz
     e, ao final escrever a localizacao (linha e coluna) ou uma mensagem de
-    înao encontradoî.
+    ‚Äùnao encontrado‚Äù.
 */
 main()
 {
@@ -97,7 +95,7 @@ do
         scanf("%d", &matriz[a][b]);
     }
 
-    printf("Digite um n˙mero: ");
+    printf("Digite um n√∫mero: ");
     scanf("%d",&x);
 
 for(a = 0; a < 5; a++) //linha da matriz
@@ -112,7 +110,7 @@ for(a = 0; a < 5; a++) //linha da matriz
         }
         if (flag == 0)
     {
-        printf("\nValor n„o encontrado na matriz\n\n");
+        printf("\nValor n√£o encontrado na matriz\n\n");
     }
 
     printf("\n\nDeseja continuar? (s/n): ");
@@ -261,7 +259,7 @@ do{
     scanf("%d",&vetValores[i]);
     }
 
-//Ordena os n˙meros
+//Ordena os n√∫meros
     for(i = 0; i<10; i++)
         for(j=i+1; j<10; j++)
     {
@@ -309,7 +307,7 @@ main()
 
 do{
 //Recebe os numeros p/ o primeiro vetor
-    printf("Digite os n˙meros do primeiro vetor:\n");
+    printf("Digite os n√∫meros do primeiro vetor:\n");
     for(i=0; i<2; i++)
         for(j=0; j<3; j++)
     {
@@ -317,7 +315,7 @@ do{
         scanf("%d",&vetUm[i][j]);
     }
 //Recebe os numeros p/ o segundo vetor
-     printf("\nDigite os n˙meros do segundo vetor:\n");
+     printf("\nDigite os n√∫meros do segundo vetor:\n");
     for(i=0; i<2; i++)
         for(j=0; j<3; j++)
     {
@@ -325,7 +323,7 @@ do{
         scanf("%d",&vetDois[i][j]);
     }
 
-    printf("Resultado da subtraÁıes dos vetores\n");
+    printf("Resultado da subtra√ß√µes dos vetores\n");
 
     for(i=0; i<2; i++)
         for(j=0; j<3; j++)
